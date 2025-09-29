@@ -1,0 +1,2 @@
+echo $SHELL SHELL=/usr/bin/bash
+[C
