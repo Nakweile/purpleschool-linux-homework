@@ -1,0 +1,18 @@
+Откройте файл списка репозиториев:
+
+
+sudo nano /etc/apt/sources.list
+или, если используются отдельные файлы-источники:
+
+sudo nano /etc/apt/sources.list.d/*.list
+Найдите строки, содержащие jammy-security universe. Например:
+
+deb http://archive.ubuntu.com/ubuntu jammy-security universe
+Закомментируйте строку, добавив в начале #. Например:
+
+# deb http://archive.ubuntu.com/ubuntu jammy-security universe
+Сохраните файл и закройте редактор.
+
+Обновите кэш пакетов:
+
+sudo apt update
