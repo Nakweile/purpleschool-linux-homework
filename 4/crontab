@@ -23,4 +23,4 @@
 # m h  dom mon dow   command
 
 
-10 0 * * * apt update && apt upgrade -y
+10 0 * * * sudo apt update ; sudo apt upgrade -y
