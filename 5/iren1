@@ -1,0 +1,1 @@
+sudo groupadd iren -g 1010 && sudo useradd -u 1010 -s /bin/dash -g 1010 iren
