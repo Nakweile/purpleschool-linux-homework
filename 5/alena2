@@ -1,1 +1,1 @@
-sudo usermod -G sudo alena
+sudo usermod -aG sudo alena

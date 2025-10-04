@@ -1,1 +1,1 @@
-passwd sudo passwd --expire iren
+sudo passwd --expire iren
